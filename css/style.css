@@ -77,6 +77,44 @@ body{
      text-decoration: none;
 }
 
+
+.banner {
+	height: 800px;
+	background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner div {}
+
+.saludo {
+	background-color: rgba(255, 255, 255, 1);
+	color: 	rgba(60, 35, 19, 1);
+	font-size: 40px;
+	font-weight: bold;
+	height: 30 px;
+	width: 450px;
+	padding: 5px;
+	display: block;
+	float: right;
+
+}
+
+.boton-comederos {
+	background-color: rgba(240, 168, 62, 1);
+	padding: 7px;
+	text-transform: uppercase;
+	height: 20px;
+	width: 110px;
+	font-size: medium;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+}
+
+
+
 .patita-central {
     margin: 0 auto; 
     margin-top: 5px; 
@@ -89,8 +127,9 @@ body{
 }
 
 h3 {
-text-align: center; 
-margin-top: 0;
+	text-align: center; 
+	margin-top: 0;
+	color:rgba(60, 35, 19, 1)
 }
 
 .menu-inferior {
