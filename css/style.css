@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;    
+}
+
+.barratop {
+    background-color: black; 
+    height: 25px; 
+    color: white; 
+    padding-top: 10px;
+    font-size: small; 
+    padding-left: 20px;
+}
+
+.texto-barra-top {
+    float: left; 
+    width: 310px; 
+    padding-left: 25px;
+}
+
+.div-barra-top-derecha {
+    float: right;
+}
+
+.texto-barra-top-derecha {
+    float: left; 
+    width: auto; 
+    padding-right: 15px;
+}
+
+.menu-inicial {
+    background-color: rgba(240, 168, 62, 1); 
+    height: 60px; 
+    color: white; 
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.menu-inicial-imgLogo {
+    float: left;
+    width: 25px;
+	margin: 8px 12px;
+}
+
+.menu-inicial-imgLogo img {
+	height: 20px;
+}
+
+.menu-inicial-textoLogo {
+	font-weight: bolder;
+	display: block;
+    float: left; 
+    width: auto;
+}
+
+.categoria{
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.contenedor-categorias {
+    width: 420px; 
+    float: right;
+	padding-top: 10px;
+}
+
+
+.categorias-texto {
+    margin-left: 10px;
+    font-size: small;
+	color: white; 
+	text-decoration: none;
+}
+
+
+.banner1 {
+	height: 800px;
+	background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.banner1 .cont{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+	padding-right: 10%;
+}
+
+.saludo {
+	background-color: rgba(255, 255, 255, 1);
+	color: 	rgba(60, 35, 19, 1);
+	font-size: 40px;
+	font-weight: bold;
+	height: 30 px;
+	width: 450px;
+	padding: 5px;
+}
+
+.boton-comederos {
+	background-color: rgba(240, 168, 62, 1);
+	padding: 7px;
+	text-transform: uppercase;
+	height: 20px;
+	width: 110px;
+	font-size: medium;
+	text-align: center;
+	font-weight: bold;
+}
+
+.destacados {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.patita-central {
+    margin-top: 5px; 
+    width: 200px;
+}
+
+.patita-central img {
+    margin: 0 auto;
+    display: block;
+}
+
+h3 { 
+	margin-top: 0;
+	color:rgba(60, 35, 19, 1)
+}
+
+.menu-inferior {
+    margin-top: 5px; 
+    width: 390px; 
+    height: 30px;
+}
+
+.menu-inferior ul {
+	list-style-type:none; 
+    color: lightslategray;
+}
+
+.menu-inferior ul li {
+	float: left; 
+	float: left; 
+	float: left; 
+	padding-left: 20px;
+}
+
+.img-productos {
+    margin-top: 5px; 
+    width: 900px; 
+    height: 300px;
+}
+
+.img-productos ul {
+    list-style-type: none;
+}
+
+.img-productos ul div {
+    float: left;
+}
+
+.img-productos ul div li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.img-productos span {
+	color: rgba(240, 168, 62, 1);
+	font-weight: bolder;
+}
+
+.formulario {
+	margin: 0 auto; 
+	margin-top: 30px; 
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+.cubo-marron {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(53, 26, 8);
+    border-radius: 10%;
+    margin-bottom: 5px;   
+}
+
+.texto-marron {
+    font-size: xx-small; 
+    color: white; 
+    margin-left: 10px;
+}
+
+.botones-form {
+    margin: 0 auto; 
+    margin-top: 20px; 
+    height: 60px; 
+    width: 150px;
+}
+
+.boton-reset {
+    width: 70px;
+    height: 20px;
+    background-color: rgb(138, 137, 137);
+    border-radius: 10%;
+    float: left;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.boton-reset span {
+    font-size: xx-small; 
+    color: white;
+}
+
+.boton-enviar {
+    width: 70px;
+    height: 20px;
+    background-color: rgba(240, 168, 62, 1);
+    border-radius: 10%;
+    float: right;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.boton-enviar span {
+    font-size: xx-small; 
+    color: white;
+}
+
+.footer-naranja {
+    background-color: rgba(240, 168, 62, 1);
+    height: 40px;
+    color: white;
+    padding: 7px 0px;
+}
+
+.correo {
+	width: 50px; 
+	padding-left: 25px; 
+	float: left;
+}
+
+.texto-correo {
+    float: left;
+    width: 380px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.boton-enviar-footer {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(54, 34, 4);
+    border-radius: 10%;
+    float: right;
+    margin: 5px 40px 0 0;
+    text-align: center;
+}
+
+.boton-enviar-footer span {
+    font-size: xx-small; 
+    color: white;
+}
+
+.agregar-email {
+    width: 250px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    float: right;
+    margin: 5px 15px;
+}
+
+.agregar-email span {
+    font-size: xx-small;
+    color: rgb(158, 158, 158);
+    margin-left: 10px;
+}
+
+.footer-marron {
+    background-color: rgb(53, 36, 11);
+    height: 280px;
+    color: white;
+    padding: 7px 0px;
+}
+
+.iconos-footer {
+    height: 70px;
+    margin: 20px;
+}
+
+.iconos-izq {
+    float: left; 
+    width: 300px; 
+    height: 70px;
+}
+
+.footer-derechos {
+	background-color: rgb(0, 0, 0);
+	height: 20px;
+	color: rgb(255, 255, 255);
+	padding: 0.5px;
+}
+
+.footer-derechos p {
+	text-align: center; 
+	font-size: small; 
+	margin: 2px;
+}
+
+.logo1 {
+	font-size: 26px;
+	color:black;
+
+}
+
+.logo2 {
+	font-size: 26px;
+	color: white;
+}
+
+.logo-footer {
+	
+	float: right; 
+	width: 300px; 
+	height: 70px; 
+	padding-top: 10px;
+        
+}
+
