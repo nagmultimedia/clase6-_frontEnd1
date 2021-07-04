@@ -112,6 +112,7 @@ body{
 
 .boton-comederos {
 	background-color: rgba(240, 168, 62, 1);
+	color: white;
 	padding: 7px;
 	text-transform: uppercase;
 	height: 20px;
@@ -307,6 +308,8 @@ h3 {
     padding: 7px 0px;
 }
 
+c
+
 .iconos-footer {
     height: 70px;
     margin: 20px;
@@ -350,4 +353,312 @@ h3 {
 	padding-top: 10px;
         
 }
+
+.contenefor-footer {
+	position: relative;
+	bottom: 0;
+}
+
+
+@media (max-width: 320px) {
+
+}
+@media (max-width: 480px) {
+
+	.banner1 {
+		height: 300px;
+		background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content:flex-end;
+		align-items: center;
+	}
+
+	.banner1 .cont{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 110px;
+		padding-right: 5%;
+		align-items: flex-end;
+	}
+
+	.banner1 .cont span {
+		font-size: 0.7rem;
+	}
+
+	.boton-comederos {
+		font-size: 0.8rem;
+		width: 70px;
+		height: auto;
+		padding-top: 7px;
+		font-size: 0.7rem;
+	}
+
+	.saludo {
+		font-size: 1rem;
+		width: 200px;
+		text-align: center;
+	}
+
+	.destacados {
+		display: flex;
+		flex-direction: column;
+		width: vw;
+		align-items: flex-start;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: wrap;
+		padding-left: 20px;
+
+	}
+
+	.patita-central {
+		
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.patita-central img {
+		display: block;
+		margin: 0 auto;
+		padding-left: 15px;
+	}
+
+	h3 {
+		font-size: 0.9rem;
+		width: 100%;
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	.menu-inferior {
+		font-size: 0.8rem;
+		margin-left: 20px;
+	}
+
+	.img-productos {
+		margin-top: 5px; 
+		width: auto; 
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		align-self: center;
+		padding: 0 0 0 38px;
+	}
+
+	div li span {
+		font-size: 0.9rem;
+		font-weight: bold;
+	}
+
+
+	.img-productos ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.img-productos ul div{
+
+	}
+
+	.barratop {
+		display: none;
+	}
+
+	.menu-inicial-imgLogo img {
+		height: 15px;
+	}
+	.menu-inicial {
+		background-color: rgba(240, 168, 62, 1); 
+		height: 40px; 
+		color: white; 
+		padding-top: 16px;
+		padding-left: 45px;
+	}
+
+	.menu-inicial-imgLogo {
+		float: left;
+		width: 18px;
+		margin: 8px 6px;
+	}
+
+	.logo1, .logo2 {
+		font-size: 0.9rem;
+	}
+
+	.menu-inicial-textoLogo {
+		padding-top: 3px;
+	}
+
+	.contenedor-categorias {
+		display: none;
+	}
+
+	.categorias-hamburguesita {
+		position: relative;
+		top: 5px;
+		left: 75px;
+	}
+
+	.formulario {
+		padding-left: 30px;
+	}
+
+	.formulario h3 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+
+	.cubo-marron {
+		padding: 0px;
+	}
+
+	.texto-marron {
+		position: relative;
+		bottom: 3px;
+	}
+
+	.botones-form {
+		padding-left: 27px;
+	}
+
+	.boton-reset span, .boton-enviar span {
+		position: relative;
+		bottom: 2.5px;
+	}
+
+	.footer-naranja {
+		background-color: rgba(240, 168, 62, 1);
+		height: 80px;
+		color: white;
+		padding: 0px 0px 0px 15px;
+	}
+	
+	.correo {
+		width: auto; 
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.texto-correo {
+		float: left;
+		width: auto;
+		padding-top: 11px;
+		font-size: 0.9rem;
+		font-weight: bolder;
+	}
+	
+	.boton-enviar-footer {
+		width: 63px;
+		height: 25px;
+		background-color: rgb(54, 34, 4);
+		border-radius: 10%;
+		float: right;
+		margin: 13px 10px 0 0;
+		text-align: center;
+	}
+	
+	.boton-enviar-footer span {
+		font-size: xx-small; 
+		color: white;
+	}
+	
+	.agregar-email {
+		width: 190px;
+		height: 30px;
+		background-color: rgb(255, 255, 255);
+		border-radius: 10%;
+		float: left;
+		position: relative;
+		bottom: 10px;
+		left: 21px;
+		
+	}
+	
+	.agregar-email span {
+		font-size: xx-small;
+		color: rgb(158, 158, 158);
+		margin-left: 10px;
+	}
+	
+	.footer-marron {
+		background-color: rgb(53, 36, 11);
+		height: 350px;
+		width: 100%;
+		color: white;
+		padding: 7px 3px 0 50px;
+		display: flex;
+		flex-direction: column;
+		flex-flow: wrap;
+	}
+	
+	.logo-footer-mobil {
+		padding-left: 60px;
+	}
+
+	.logo-footer-mobil .menu-inicial-textoLogo .logo1, .logo-footer-mobil .menu-inicial-textoLogo .logo2 {
+		font-size: 0.8rem;
+		position: relative;
+		top: 4px;
+		left: -6px;
+	}
+
+	.logo-footer-mobil .menu-inicial-imgLogo img {
+		width: 10px;
+		height: 10px;
+	}
+
+	.iconos-footer {
+		height: 70px;
+	}
+	
+	.iconos-izq {
+		float: left; 
+		width: 300px; 
+		height: 70px;
+	}
+	
+	.footer-derechos {
+		background-color: rgb(0, 0, 0);
+		height: 20px;
+		color: rgb(255, 255, 255);
+		padding: 0.5px 0 0.5px 40px;
+	}
+	
+	.footer-derechos p {
+		text-align: center; 
+		font-size: small; 
+		margin: 2px;
+	}
+	
+	
+	.logo-footer {
+		
+		display: none;
+			
+	}
+	
+	
+
+}
+@media (max-width: 769px) {
+
+
+}
+@media (max-width: 1024px) {
+  
+}
+@media (min-width: 1025px) {
+  
+}
+
+
+
 
