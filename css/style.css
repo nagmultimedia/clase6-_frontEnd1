@@ -5,6 +5,7 @@
 
 body{
 	font-family: 'Roboto', sans-serif;    
+	width: 87vw;
 }
 
 .barratop {
@@ -18,7 +19,7 @@ body{
 
 .texto-barra-top {
     float: left; 
-    width: 310px; 
+    width: auto; 
     padding-left: 25px;
 }
 
@@ -50,6 +51,9 @@ body{
 	height: 20px;
 }
 
+.contenedor-hamburguesita {
+	display: none;
+}
 .menu-inicial-textoLogo {
 	font-weight: bolder;
 	display: block;
@@ -147,7 +151,7 @@ h3 {
 
 .menu-inferior {
     margin-top: 5px; 
-    width: 390px; 
+    width: auto; 
     height: 30px;
 }
 
@@ -165,7 +169,7 @@ h3 {
 
 .img-productos {
     margin-top: 5px; 
-    width: 900px; 
+    width: auto; 
     height: 300px;
 }
 
@@ -189,8 +193,9 @@ h3 {
 
 .formulario {
 	margin: 0 auto; 
-	margin-top: 30px; 
-	height: 100px;
+	margin-top: 140px; 
+	margin-bottom: 40px;
+	height: 60px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -199,35 +204,41 @@ h3 {
 
 
 
-.cubo-marron {
-    width: 150px;
+
+
+input{
+    margin-top: 5px;
+	width: 150px;
     height: 20px;
     background-color: rgb(53, 26, 8);
     border-radius: 10%;
-    margin-bottom: 5px;   
+	border-radius: 10px;
+	font-size: x-small;
+	padding-left: 15px;
 }
 
-.texto-marron {
-    font-size: xx-small; 
-    color: white; 
-    margin-left: 10px;
-}
 
-.botones-form {
-    margin: 0 auto; 
+
+button{
+	margin: 0 auto; 
     margin-top: 20px; 
     height: 60px; 
     width: 150px;
+	color: aliceblue;
+	font-size: x-small;
 }
 
-.boton-reset {
-    width: 70px;
+
+
+button[type=reset] {
+	width: 70px;
     height: 20px;
     background-color: rgb(138, 137, 137);
     border-radius: 10%;
     float: left;
     margin-bottom: 5px;
     text-align: center;
+	border-radius: 15px;
 }
 
 .boton-reset span {
@@ -235,14 +246,15 @@ h3 {
     color: white;
 }
 
-.boton-enviar {
-    width: 70px;
+button[type=submit] {
+	width: 70px;
     height: 20px;
     background-color: rgba(240, 168, 62, 1);
     border-radius: 10%;
     float: right;
     margin-bottom: 5px;
     text-align: center;
+	border-radius: 15px;
 }
 
 .boton-enviar span {
@@ -271,8 +283,13 @@ h3 {
     font-weight: bolder;
 }
 
-.boton-enviar-footer {
-    width: 60px;
+.suscribir {
+	width: auto;
+	float: right;
+}
+.suscribir button {
+	display: inline;
+	width: 60px;
     height: 30px;
     background-color: rgb(54, 34, 4);
     border-radius: 10%;
@@ -286,13 +303,14 @@ h3 {
     color: white;
 }
 
-.agregar-email {
-    width: 250px;
+.suscribir input {
+	width: 250px;
     height: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
-    float: right;
-    margin: 5px 15px;
+    float: left;
+    margin: 4px 15px;
+	display: inline;
 }
 
 .agregar-email span {
@@ -308,7 +326,17 @@ h3 {
     padding: 7px 0px;
 }
 
-c
+input:focus {
+	background-color: rgba(255, 112, 111, 0.32);
+}
+
+button:focus {
+	background-color: lightpink;
+}
+
+button:hover {
+	background-color: lightpink;
+}
 
 .iconos-footer {
     height: 70px;
@@ -359,6 +387,10 @@ c
 	bottom: 0;
 }
 
+.logo-footer-mobil {
+	display: none;
+}
+
 
 @media (max-width: 320px) {
 
@@ -375,6 +407,11 @@ c
 		justify-content:flex-end;
 		align-items: center;
 	}
+
+	.texto-barra-top {
+		width: auto;
+	}
+
 
 	.banner1 .cont{
 		display: flex;
@@ -463,10 +500,6 @@ c
 		flex-direction: column;
 	}
 
-	.img-productos ul div{
-
-	}
-
 	.barratop {
 		display: none;
 	}
@@ -496,14 +529,13 @@ c
 		padding-top: 3px;
 	}
 
-	.contenedor-categorias {
-		display: none;
-	}
 
-	.categorias-hamburguesita {
-		position: relative;
-		top: 5px;
-		left: 75px;
+
+	.contenedor-hamburguesita {
+		display: inline-block;
+		float: right;
+		width: 30px;
+		padding-right: 10px;
 	}
 
 	.formulario {
@@ -536,7 +568,7 @@ c
 
 	.footer-naranja {
 		background-color: rgba(240, 168, 62, 1);
-		height: 80px;
+		height: 110px;
 		color: white;
 		padding: 0px 0px 0px 15px;
 	}
@@ -555,42 +587,9 @@ c
 		font-weight: bolder;
 	}
 	
-	.boton-enviar-footer {
-		width: 63px;
-		height: 25px;
-		background-color: rgb(54, 34, 4);
-		border-radius: 10%;
-		float: right;
-		margin: 13px 10px 0 0;
-		text-align: center;
-	}
-	
-	.boton-enviar-footer span {
-		font-size: xx-small; 
-		color: white;
-	}
-	
-	.agregar-email {
-		width: 190px;
-		height: 30px;
-		background-color: rgb(255, 255, 255);
-		border-radius: 10%;
-		float: left;
-		position: relative;
-		bottom: 10px;
-		left: 21px;
-		
-	}
-	
-	.agregar-email span {
-		font-size: xx-small;
-		color: rgb(158, 158, 158);
-		margin-left: 10px;
-	}
-	
 	.footer-marron {
 		background-color: rgb(53, 36, 11);
-		height: 350px;
+		height: auto;
 		width: 100%;
 		color: white;
 		padding: 7px 3px 0 50px;
@@ -601,6 +600,10 @@ c
 	
 	.logo-footer-mobil {
 		padding-left: 60px;
+		display: contents;
+		display: block;
+		height: 20px;
+		margin-bottom: 10px;
 	}
 
 	.logo-footer-mobil .menu-inicial-textoLogo .logo1, .logo-footer-mobil .menu-inicial-textoLogo .logo2 {
@@ -616,8 +619,11 @@ c
 	}
 
 	.iconos-footer {
-		height: 70px;
+		display: block;
+		height: 50px;
+		width: 100%;
 	}
+
 	
 	.iconos-izq {
 		float: left; 
@@ -645,11 +651,30 @@ c
 			
 	}
 	
-	
+	body{ 
+		width: 100vw;
+	}
 
+	.contenedor-categorias {
+		display: none;
+	}
 }
 @media (max-width: 769px) {
 
+	body {
+		width: 90vw;
+	}
+	
+	.contenedor-categorias {
+		display: none;
+	}
+
+	.contenedor-hamburguesita {
+		display: inline-block;
+		float: right;
+		width: 30px;
+		padding-right: 10px;
+	}
 
 }
 @media (max-width: 1024px) {

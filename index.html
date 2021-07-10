@@ -47,23 +47,9 @@
 		</div>
 
 		<div class="contenedor-hamburguesita">
-		
-			<a href="#" class="categorias-hamburguesita"><img src="img/hamburguesita.png" alt="hamburguesita" /> </a>
-				
-			<!--	<div class="categoria">
-				<i class="fas fa-paw"></i>
-				<a href="#" class="categorias-texto">Categoría</a>
-			</div>
-			<div class="categoria">
-				<i class="fas fa-paw"></i><a href="#" class="categorias-texto">Pets</a>
-			</div>
-			<div class="categoria">
-				<i class="fas fa-paw"></i><a href="#" class="categorias-texto">Nosotros</a>
-			</div>
-			<div class="categoria">
-				<i class="fas fa-paw"></i><a href="#" class="categorias-texto">Contactanos</a>
-			</div>
-		-->
+
+			<img src="img/hamburguesita.png" alt="hamburguesita" />
+
 		</div>
 	</div>
 
@@ -129,26 +115,20 @@
 	</div>
 	<div class="formulario">
 		<h3>Contáctanos</h3>
-		<div class="cubo-marron">
-			<span class="texto-marron"> Nombre y apellido </span>
-		</div>
-		<div class="cubo-marron">
-			<span class="texto-marron"> Ingresa tu correo electrónico </span>
-		</div>
-		<div class="cubo-marron">
-			<span class="texto-marron"> Teléfono </span>
-		</div>
+
+		<form action="resultado.html" method="POST">
+			<input id="name" class="input" name="name" type="text" placeholder="Nombre y apellido" size="30" /><br />
+			<input id="email" class="input" name="email" type="email" placeholder="Ingresa tu correo electrónico"
+				size="40" /><br />
+			<input id="telefono" class="input" name="telefono" type="number" placeholder="Teléfono" size="30" /><br />
+
+
+
+			<button type="reset">Resetear</button>
+			<button type="submit">Enviar</button>
+		</form>
 	</div>
-	<div>
-		<div class="botones-form">
-			<div class="boton-reset">
-				<span> Resetear </span>
-			</div>
-			<div class="boton-enviar">
-				<span> Enviar </span>
-			</div>
-		</div>
-	</div>
+
 	<div class="contenefor-footer">
 		<div class="footer-naranja">
 			<div class="correo">
@@ -157,12 +137,15 @@
 			<div class="texto-correo">
 				<span>Suscríbete para más novedades</span>
 			</div>
-			<div class="boton-enviar-footer">
-				<span> Suscribirme </span>
+
+			<div class="suscribir">
+				<form action="resultado.html" method="POST">
+					<input id="email" class="input" name="email" type="email"
+						placeholder="Ingresa tu correo electrónico" size="40" />
+					<button type="submit">Enviar</button>
+				</form>
 			</div>
-			<div class="agregar-email">
-				<span> Ingresá tu correo electrónico </span>
-			</div>
+
 		</div>
 
 		<div class="footer-marron">
@@ -174,7 +157,7 @@
 				<div class="menu-inicial-imgLogo"><img src="img/Dog.png" /></div>
 			</div>
 			<div class="iconos-footer">
-				
+
 
 				<img src="img/Location.png" alt="location img" />
 			</div>
