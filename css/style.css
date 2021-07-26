@@ -1,0 +1,721 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;    
+	width: 98.9vw;
+}
+
+.barratop {
+    background-color: black; 
+    height: 25px; 
+    color: white; 
+    padding-top: 10px;
+    font-size: small; 
+    padding-left: 20px;
+}
+
+.texto-barra-top {
+    float: left; 
+    width: auto; 
+    padding-left: 25px;
+}
+
+.div-barra-top-derecha {
+    float: right;
+}
+
+.texto-barra-top-derecha {
+    float: left; 
+    width: auto; 
+    padding-right: 15px;
+}
+
+.menu-inicial {
+    background-color: rgba(240, 168, 62, 1); 
+    height: 60px; 
+    color: white; 
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.menu-inicial-imgLogo {
+    float: left;
+    width: 25px;
+	margin: 8px 12px;
+}
+
+.menu-inicial-imgLogo img {
+	height: 20px;
+}
+
+.contenedor-hamburguesita {
+	display: none;
+}
+.menu-inicial-textoLogo {
+	font-weight: bolder;
+	display: block;
+    float: left; 
+    width: auto;
+}
+
+.categoria{
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.contenedor-categorias {
+    width: 420px; 
+    float: right;
+	padding-top: 10px;
+	margin-right: 20px;
+}
+
+.categoria a:hover{
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+
+.categorias-texto {
+    margin-left: 10px;
+    font-size: small;
+	color: white; 
+	text-decoration: none;
+}
+
+
+.banner1 {
+	height: 800px;
+	background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.banner1 .cont{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+	padding-right: 10%;
+}
+
+.saludo {
+	background-color: rgba(255, 255, 255, 1);
+	color: 	rgba(60, 35, 19, 1);
+	font-size: 40px;
+	font-weight: bold;
+	height: 30 px;
+	width: 450px;
+	padding: 5px;
+}
+
+.boton-comederos {
+	background-color: rgba(240, 168, 62, 1);
+	color: white;
+	padding: 7px;
+	text-transform: uppercase;
+	height: 20px;
+	width: 110px;
+	font-size: medium;
+	text-align: center;
+	font-weight: bold;
+}
+
+.destacados {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.patita-central {
+    margin-top: 5px; 
+    width: 200px;
+}
+
+.patita-central img {
+    margin: 0 auto;
+    display: block;
+}
+
+h3 { 
+	margin-top: 0;
+	color:rgba(60, 35, 19, 1)
+}
+
+.menu-inferior {
+    margin-top: 5px; 
+    width: auto; 
+    height: 30px;
+}
+
+.menu-inferior ul {
+	list-style-type:none; 
+    color: lightslategray;
+}
+
+.menu-inferior ul li {
+	float: left; 
+	float: left; 
+	float: left; 
+	padding-left: 20px;
+}
+
+.menu-inferior ul li a{
+	text-decoration: none;
+	color: lightslategray;
+}
+
+.menu-inferior ul li a:hover{
+	color: darkgreen;
+	font-weight: bolder;
+}
+
+.img-productos {
+    margin-top: 5px; 
+    width: auto; 
+    height: 300px;
+
+}
+
+.img-productos ul {
+    list-style-type: none;
+}
+
+.img-productos ul div {
+    float: left;
+}
+
+.img-productos ul div li {
+    margin-right: 20px;
+    text-align: center;
+	transition-duration: 0.6s;
+}
+
+.img-productos ul div li:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.img-productos span {
+	color: rgba(240, 168, 62, 1);
+	font-weight: bolder;
+}
+
+.formulario {
+	margin: 0 auto; 
+	margin-top: 140px; 
+	margin-bottom: 40px;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+
+
+input{
+    margin-top: 5px;
+	width: 150px;
+    height: 20px;
+    background-color: rgb(53, 26, 8);
+    border-radius: 10%;
+	border-radius: 10px;
+	font-size: x-small;
+	padding-left: 15px;
+	transition-property: background-color, lightpink;
+	transition-duration: 1s;
+}
+
+
+
+button{
+	margin: 0 auto; 
+    margin-top: 20px; 
+    height: 60px; 
+    width: 150px;
+	color: aliceblue;
+	font-size: x-small;
+}
+
+
+
+button[type=reset] {
+	width: 70px;
+    height: 20px;
+    background-color: rgb(138, 137, 137);
+    border-radius: 10%;
+    float: left;
+    margin-bottom: 5px;
+    text-align: center;
+	border-radius: 15px;
+	transition-duration: 0.8s;
+}
+
+.boton-reset span {
+    font-size: xx-small; 
+    color: white;
+}
+
+button[type=submit] {
+	width: 70px;
+    height: 20px;
+    background-color: rgba(240, 168, 62, 1);
+    border-radius: 10%;
+    float: right;
+    margin-bottom: 5px;
+    text-align: center;
+	border-radius: 15px;
+	transition-duration: 0.8s;
+}
+
+.boton-enviar span {
+    font-size: xx-small; 
+    color: white;
+}
+
+.footer-naranja {
+    background-color: rgba(240, 168, 62, 1);
+    height: 40px;
+    color: white;
+    padding: 7px 0px;
+}
+
+.correo {
+	width: 50px; 
+	padding-left: 25px; 
+	float: left;
+}
+
+.texto-correo {
+    float: left;
+    width: 380px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.suscribir {
+	width: auto;
+	float: right;
+}
+.suscribir button {
+	display: inline;
+	width: 60px;
+    height: 30px;
+    background-color: rgb(54, 34, 4);
+    border-radius: 10%;
+    float: right;
+    margin: 5px 40px 0 0;
+    text-align: center;
+}
+
+.boton-enviar-footer span {
+    font-size: xx-small; 
+    color: white;
+}
+
+.suscribir input {
+	width: 250px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    float: left;
+    margin: 4px 15px;
+	display: inline;
+}
+
+.agregar-email span {
+    font-size: xx-small;
+    color: rgb(158, 158, 158);
+    margin-left: 10px;
+}
+
+.footer-marron {
+    background-color: rgb(53, 36, 11);
+    height: 280px;
+    color: white;
+    padding: 7px 0px;
+}
+
+input:focus {
+	background-color: rgba(255, 112, 111, 0.32);
+}
+
+button:hover {
+	background-color: lightpink;
+}
+
+.iconos-footer {
+    height: 70px;
+    margin: 20px;
+}
+
+.iconos-izq {
+    float: left; 
+    width: 300px; 
+    height: 70px;
+}
+
+.footer-derechos {
+	background-color: rgb(0, 0, 0);
+	height: 20px;
+	color: rgb(255, 255, 255);
+	padding: 0.5px;
+}
+
+.footer-derechos p {
+	text-align: center; 
+	font-size: small; 
+	margin: 2px;
+}
+
+.logo1 {
+	font-size: 26px;
+	color:black;
+
+}
+
+.logo2 {
+	font-size: 26px;
+	color: white;
+}
+
+.logo-footer {
+	
+	float: right; 
+	width: 300px; 
+	height: 70px; 
+	padding-top: 10px;
+        
+}
+
+.contenefor-footer {
+	position: relative;
+	bottom: 0;
+}
+
+.logo-footer-mobil {
+	display: none;
+}
+
+
+@media (max-width: 320px) {
+
+}
+@media (max-width: 480px) {
+
+	.banner1 {
+		height: 300px;
+		background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content:flex-end;
+		align-items: center;
+	}
+
+	.texto-barra-top {
+		width: auto;
+	}
+
+
+	.banner1 .cont{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 110px;
+		padding-right: 5%;
+		align-items: flex-end;
+	}
+
+	.banner1 .cont span {
+		font-size: 0.7rem;
+	}
+
+	.boton-comederos {
+		font-size: 0.8rem;
+		width: 70px;
+		height: auto;
+		padding-top: 7px;
+		font-size: 0.7rem;
+	}
+
+	.saludo {
+		font-size: 1rem;
+		width: 200px;
+		text-align: center;
+	}
+
+	.destacados {
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		align-items: flex-start;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: wrap;
+		padding-left: 20px;
+
+	}
+
+	.patita-central {
+		
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.patita-central img {
+		display: block;
+		margin: 0 auto;
+		padding-left: 15px;
+	}
+
+	h3 {
+		font-size: 0.9rem;
+		width: 100%;
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	.menu-inferior {
+		font-size: 0.8rem;
+		margin-left: 20px;
+		transition-duration: 0.5s;
+	}
+
+	.menu-inferior ul li a{
+		text-decoration: none;
+		color: lightslategray;
+	}
+
+	.img-productos {
+		margin-top: 5px; 
+		width: auto; 
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		align-self: center;
+		padding: 0 0 0 38px;
+	}
+
+	div li span {
+		font-size: 0.9rem;
+		font-weight: bold;
+	}
+
+
+	.img-productos ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.barratop {
+		display: none;
+	}
+
+	.menu-inicial-imgLogo img {
+		height: 15px;
+	}
+	.menu-inicial {
+		background-color: rgba(240, 168, 62, 1); 
+		height: 40px; 
+		color: white; 
+		padding-top: 16px;
+		padding-left: 45px;
+	}
+
+	.menu-inicial-imgLogo {
+		float: left;
+		width: 18px;
+		margin: 8px 6px;
+	}
+
+	.logo1, .logo2 {
+		font-size: 0.9rem;
+	}
+
+	.menu-inicial-textoLogo {
+		padding-top: 3px;
+	}
+
+
+
+	.contenedor-hamburguesita {
+		display: inline-block;
+		float: right;
+		width: 30px;
+		padding-right: 10px;
+	}
+
+	.formulario {
+		padding-left: 30px;
+	}
+
+	.formulario h3 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+
+	.cubo-marron {
+		padding: 0px;
+	}
+
+	.texto-marron {
+		position: relative;
+		bottom: 3px;
+	}
+
+	.botones-form {
+		padding-left: 27px;
+	}
+
+	.boton-reset span, .boton-enviar span {
+		position: relative;
+		bottom: 2.5px;
+	}
+
+	.footer-naranja {
+		background-color: rgba(240, 168, 62, 1);
+		height: 110px;
+		color: white;
+		padding: 0px 0px 0px 15px;
+	}
+	
+	.correo {
+		width: auto; 
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.texto-correo {
+		float: left;
+		width: auto;
+		padding-top: 11px;
+		font-size: 0.9rem;
+		font-weight: bolder;
+	}
+	
+	.footer-marron {
+		background-color: rgb(53, 36, 11);
+		height: auto;
+		width: 100%;
+		color: white;
+		padding: 7px 3px 0 50px;
+		display: flex;
+		flex-direction: column;
+		flex-flow: wrap;
+	}
+	
+	.logo-footer-mobil {
+		padding-left: 60px;
+		display: contents;
+		display: block;
+		height: 20px;
+		margin-bottom: 10px;
+	}
+
+	.logo-footer-mobil .menu-inicial-textoLogo .logo1, .logo-footer-mobil .menu-inicial-textoLogo .logo2 {
+		font-size: 0.8rem;
+		position: relative;
+		top: 4px;
+		left: -6px;
+	}
+
+	.logo-footer-mobil .menu-inicial-imgLogo img {
+		width: 10px;
+		height: 10px;
+	}
+
+	.iconos-footer {
+		display: block;
+		height: 50px;
+		width: 100%;
+	}
+
+	
+	.iconos-izq {
+		float: left; 
+		width: 300px; 
+		height: 70px;
+	}
+	
+	.footer-derechos {
+		background-color: rgb(0, 0, 0);
+		height: 20px;
+		color: rgb(255, 255, 255);
+		padding: 0.5px 0 0.5px 40px;
+	}
+	
+	.footer-derechos p {
+		text-align: center; 
+		font-size: small; 
+		margin: 2px;
+	}
+	
+	
+	.logo-footer {
+		
+		display: none;
+			
+	}
+	
+	body{ 
+		width: 100vw;
+	}
+
+	.contenedor-categorias {
+		display: none;
+	}
+}
+@media (max-width: 769px) {
+
+	body {
+		width: 90vw;
+	}
+	
+	.contenedor-categorias {
+		display: none;
+	}
+
+	.contenedor-hamburguesita {
+		display: inline-block;
+		float: right;
+		width: 30px;
+		padding-right: 10px;
+	}
+
+}
+@media (max-width: 1024px) {
+	body{
+		font-family: 'Roboto', sans-serif;    
+		width: 98.3vw;
+	}
+}
+@media (min-width: 1025px) {
+  
+}
+
+
+
+
